@@ -1,5 +1,6 @@
 
 
+using API.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Data
@@ -9,5 +10,9 @@ namespace API.Data
         public StoreContext(DbContextOptions options) : base(options)
         {
         }
+
+
+        public DbSet<Product> MyProperty { get; set; }
+
     }
 }
