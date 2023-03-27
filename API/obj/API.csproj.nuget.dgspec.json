@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\API.csproj": {}
+    "c:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\API.csproj": {
+    "c:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\API.csproj",
+        "projectUniqueName": "c:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\API.csproj",
+        "projectPath": "c:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Adalberto\\.nuget\\packages\\",
-        "outputPath": "C:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\obj\\",
+        "outputPath": "c:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Adalberto\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -41,6 +41,14 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
