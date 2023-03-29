@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\API.csproj": {}
+    "C:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\API.csproj": {
+    "C:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\API.csproj",
+        "projectUniqueName": "C:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\API.csproj",
+        "projectPath": "C:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Adalberto\\.nuget\\packages\\",
-        "outputPath": "c:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\obj\\",
+        "outputPath": "C:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Adalberto\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,8 @@
               "version": "[7.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.2, )"
             },

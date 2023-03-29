@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MmjhDcrKFC2TmZFdRULCSP+xABO6mHOwqCoYoV/LhrNouQ2/3+AaSj6nfMrizoiVsIxmbKzU1hmB63t788fDyQ==",
+  "dgSpecHash": "uxfgen0bM6NyOciieJWsJBoxucCnT3JSrkWQUE+Sd9zcZcYl8xSzZAfvBw4/v8npp+ikzuCPFxhAIUkgBM5WZQ==",
   "success": true,
-  "projectFilePath": "c:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\API.csproj",
+  "projectFilePath": "C:\\repositories\\github\\ecommerce-dotnet-shopbridge\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Adalberto\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Adalberto\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.4\\microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",

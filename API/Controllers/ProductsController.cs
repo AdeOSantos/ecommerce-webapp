@@ -1,3 +1,4 @@
+using API.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
@@ -7,8 +8,15 @@ namespace API.Controllers
     [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
+        private readonly StoreContext context;
+
+        public ProductsController (StoreContext context)
+        {
+            this.context = context;
+        }
+
         [HttpGet]
-        public string GetProduct()
+        public string GetProducts()
         {
             return "this will be a list of products";
         }
